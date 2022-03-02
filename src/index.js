@@ -16,13 +16,14 @@ const createWindow = () => {
       devTools: false
     }
   });
-  
-  // Suppress the default menus
-  Menu.setApplicationMenu(null);
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 };
+
+  
+// Suppress the default menus
+Menu.setApplicationMenu(null);
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
