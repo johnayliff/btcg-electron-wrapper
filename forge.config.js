@@ -42,7 +42,7 @@ module.exports = {
     {
         name: "@electron-forge/maker-squirrel",
         config: {
-            name: "Beyond the Chiron Gate",
+            name: "BeyondTheChironGate",
             certificateFile: process.env['WINDOWS_PFX_FILE'],
             certificatePassword: process.env['WINDOWS_PFX_PASSWORD']
         }
